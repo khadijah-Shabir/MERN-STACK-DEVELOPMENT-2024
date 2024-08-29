@@ -1,0 +1,44 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: yellow;
+    display: inline-grid;
+   
+    /* grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 200px 200px 200px; */
+    /* We can use auto in columns as well..aik bar auto likhny se aik track bny ga or do bar likhny se poori space 2 columns main divide ho jaye gi */
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    /* row-gap: 10px;
+    column-gap: 30px;
+/* 
+    /* Short hand to write gap value between rows and columns of grid */
+    grid-gap: 10px 30px;
+
+}
+
+
+.item{
+    /* height: 50px;
+    width: 100px; */
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#one{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    /* agr iski apni width km h phir bhi cell isk liye reserve ho jaye ga */
+    grid-column: 1 / 4;
+    /* line number 1 se shuru kro or usky bad mjhy 2 columns chahhiye */
+    grid-column: 1 /span 3;
+}
+
+.two{
+    grid-row-start:1;
+    grid-row-end:3;
+    /* grid-row:1/3;
+    grid-row: 1/span 2; */
+}

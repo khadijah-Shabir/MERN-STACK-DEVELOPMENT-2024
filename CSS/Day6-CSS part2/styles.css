@@ -1,0 +1,133 @@
+/* !important have more specificity then inline css */
+
+h3{
+    background-color: rgb(211, 90, 53) !important;
+}
+
+*{
+    font-family: 'Courier New';
+}
+
+h3{ 
+    color:purple
+}
+h1{
+    color:#b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.follow{
+    color: red;
+}
+
+.upvote{
+    color: aliceblue;
+    background-color: green;
+}
+
+
+/* #myid{
+    color: green;
+} */
+/* ACtivity */
+div[id="myid"] p{
+    color: green;
+}
+
+/* Desendant selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+    color: hotpink;
+}
+
+/* sibling combinator */
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote+button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* child decendent relation or child combinator */
+div>input{
+    background-color: darksalmon;
+}
+
+/* attribute selector */
+input[type="text"] {
+    color: green;
+    
+}
+
+input[type="password"] {
+    color:red;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* Psuedo Class---hover */
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* login and sign up are not changing due to hover effect due to specificity */
+
+h3:hover{
+    text-decoration: overline;
+}
+
+/* Psuedo Class---active*/
+/* active means when an element is clicked */
+button:active{
+    background-color: pink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+/* Psuedo Class---checked*/
+/* used for radio or checkboxes */
+input[type="radio"]:checked +label{
+    color: red;
+    font-weight: bold;
+}
+
+
+/* Psuedo Class---nth of type*/
+div:nth-of-type(3n){
+    background-color: blanchedalmond;
+}
+
+/* Psuedo Elements---first-letter*/
+h1::first-letter{
+    color:green;
+}
+p::first-line{
+    color:blueviolet
+}
+p::selection{
+    background-color:rgb(110, 177, 110);
+}
+
+/* cascading property */
+h3{
+    background-color: green;
+}
+h3{
+    background-color:beige;
+}

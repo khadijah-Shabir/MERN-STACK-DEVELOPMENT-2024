@@ -1,0 +1,26 @@
+.red {
+    color:red;
+}
+
+.blue{
+    color: blue;
+}
+
+.divstyle{
+    background-color: pink;
+    border: black solid;
+    border-width: 5px;
+    height: 500px;
+    width: 500px;
+}
+
+.btncolor{
+    background-color: blue;
+    color: white;
+}
+
+.decoration{
+    color: purple;
+    text-decoration: underline;
+}
+

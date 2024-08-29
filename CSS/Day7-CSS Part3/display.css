@@ -1,0 +1,28 @@
+
+span{
+    /* background-color: pink; */
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    /* span main height and width set hi nhi ho rhi */
+    padding: 50px;
+    margin: 50px;
+/* inline element k liye padding sirf left and right pe set hvi and same cheeez margin k liye bhi hoti h */
+}
+
+div{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 5px;
+    display:inline-block;
+    /* inline block means behaviour would be like inline elements but all the block properties will be applied */
+
+}
+
+#third{
+    display:none;
+    /* kisi ko gayab krdo
+*/
+}

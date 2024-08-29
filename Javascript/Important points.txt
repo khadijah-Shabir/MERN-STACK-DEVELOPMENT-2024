@@ -1,0 +1,17 @@
+********************************Javascript****************************
+press ctrl + L to clear the console on google tab.
+use upward key to get the upper code.
+javascript is a dynamically typed langaguage which means we can change the datatype of  a variable by simpling assigning the value of another type to the variable.
+let a=5
+type=number
+a=true
+type of a will be changed to boolean now
+
+typescript is a strict version of js which is static Typed.
+
+console.log is a method to load your javascript written in a file on your vs code to your browsers console.
+in comparison between non-numbers like "a" and "A" ..there unicodes are compared.
+
+
+
+

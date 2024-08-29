@@ -1,0 +1,12 @@
+div{
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(0, 128, 0, 0.783);
+    margin : 20px;
+}
+
+#opacity{
+    background-color: #ff55a1;
+    opacity: 1;
+}

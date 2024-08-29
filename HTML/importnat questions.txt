@@ -1,0 +1,33 @@
+GET Method:
+The GET method is used to retrieve data from a server.
+Data is sent as part of the URL, appended as query strings (e.g., ?name=John&age=30).
+Limited data size (typically 2048 characters).
+Data is visible in the URL, so sensitive data should not be sent using GET.
+Can be cached by the browser, so data may not be up-to-date.
+Can be bookmarked, as the URL contains all the necessary data.
+
+
+POST Method:
+The POST method is used to send data to a server for processing.
+Data is sent in the request body, not as part of the URL.
+No data size limit, as data is sent separately from the URL.
+Data is not visible in the URL, making it more secure for sensitive data.
+Not cached by the browser, ensuring up-to-date data.
+Cannot be bookmarked, as the URL does not contain the data.
+
+Key differences:
+Visibility: GET data is visible in the URL, while POST data is not.
+Data size: GET has a limited data size, while POST has no limit.
+Caching: GET data may be cached, while POST data is not.
+Security: POST is more secure for sensitive data, as it's not visible in the URL.
+When to use each:
+
+Use GET for:
+Retrieving data without modifying it.
+Simple searches or queries.
+Data that can be publicly shared.
+Use POST for:
+Sending sensitive data (e.g., passwords, credit card numbers).
+Creating, updating, or deleting data.
+Large data transfers or file uploads.
+Remember, these are general guidelines, and the choice between GET and POST ultimately depends on the specific requirements of your application.

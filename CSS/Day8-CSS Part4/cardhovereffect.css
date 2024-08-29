@@ -1,0 +1,28 @@
+.card {
+    height: 300px; /* Increased height to accommodate both image and text */
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden; /* Prevents content from overflowing the card */
+    box-shadow: 0px 4px 8px black;
+    transition: 2s;
+
+}
+
+img {
+    width: 100%;
+    height: 70%; /* Make the image occupy 70% of the card's height */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    border-radius: 5px 5px 0 0;
+}
+
+.desc {
+    padding: 8px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px black;
+}

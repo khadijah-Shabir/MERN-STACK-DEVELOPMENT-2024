@@ -1,0 +1,46 @@
+#container{
+    height: 600px;
+    width: 60%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;  
+    flex-direction: row;
+    /* in spread-between, extra space from left to right will be spread between the boxes provided there is an extra space */
+    justify-content:flex-start;
+    /* space-around means jitni space middle main thi uski adhi left main or adhi right main chli jaye gi */
+    /* space_evenly main corners or middle main equal space aye gi */
+
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-items: baseline; */
+    align-content: flex-start;
+}
+
+#orange{
+  align-self: flex-start;
+  /* flex-basis: 50px;  */
+  /*  flex basis  tell the initial size of divs along the main axis*/
+  /* it will not get 50px due to larger font size */
+  /* flex-grow: 1; */
+  flex-shrink: 1;
+}
+
+#blue{
+    /* flex-basis: 500px;  */
+    /* direction in row then the width of blue will increse and if we had initial direction as coloumn the height will increase of blue box */
+    /* flex-grow: 2;
+    min-width: 400px; */
+    flex-shrink: 2;
+}
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    font-size: 1.5em;
+}

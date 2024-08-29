@@ -1,0 +1,28 @@
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.one{
+    background-color: aquamarine;
+    position :relative;
+    z-index: 1;
+}
+
+.two{
+    background-color: darksalmon;
+    position: relative;
+    bottom: 50px;
+}
+
+/* jb bhi 2 elements overlap krein or hmein ye control krna ho kh konsi cheez upr dikhani h or  konsi cheez neechy toh hmz-index ka use krty hain*/
+
+/* jis elemnt ka z index hm bra set kr dein gy woh hmein screen main upr ki trf show hoga */
+
+/* by default all elements have 0 or ato(0)z index */
+/* hm sirf un oxes ko z index de skty jin ki koi position hm ne di hvi hoti h ...static ya default pe bhi apply nhi hota */
+
+/* z index can be positive or nagative */
+/* positive means it will be on top    */
